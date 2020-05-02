@@ -21,7 +21,7 @@ print(5 % 2)
 ########### função type ##########
 print(type(5)) # int
 print(type(4.0)) # float
-print(type('ola')) #str
+print(type("ola")) #str
 
 ########## operações com números float ##########
 print(3.3 + 3.4) # 6.999999999
@@ -49,7 +49,7 @@ print(type(4 // 4)) # int
 ########### conversão ##########
 print(float(9)) # 9.0
 
-'''
+"""
     => print(int(9.2)) # saída 9
     => print(int(9.6)) # saída 9
 
@@ -57,7 +57,7 @@ print(float(9)) # 9.0
     pois ele está retornado o valor inteiro, ou seja isso
     não é conversão, precisa ficar atento pois não existe arredondamento
     nem pra mais nem pra menos
-'''
+"""
 print(int(9.2)) # 9
 print(int(9.6)) # 9
 

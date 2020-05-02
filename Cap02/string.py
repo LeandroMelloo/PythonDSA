@@ -1,12 +1,12 @@
 # String
-a = 'Leandro'
-b = 'Luciana'
+a = "Leandro"
+b = "Luciana"
 
-# '\n' => quebra de linha
-concatenar = a + ' ' + 'e' + ' ' + b + '\n'
+# "\n" => quebra de linha
+concatenar = a + " " + "e" + " " + b + "\n"
 print(concatenar)
 
-# vendo o tamanho da variavel concatenar com a função 'len', que recebe o valor de uma 'string'
+# vendo o tamanho da variavel concatenar com a função "len", que recebe o valor de uma "string"
 tamanho = len(concatenar)
 print(tamanho)
 
@@ -35,13 +35,13 @@ print(concatenar.upper()) # LEANDRO E LUCIANA
 print(concatenar.strip()) # quebra de linhas
 
 # função split() => converte a minha sequencia em uma lista
-print(concatenar.split()) # ['Leandro', 'e', 'Luciana']
+print(concatenar.split()) # ["Leandro", "e", "Luciana"]
 
 # função find() => busca a palavra dentro de uma sequencia
-buscar = concatenar.find('Leandro')
+buscar = concatenar.find("Leandro")
 print(buscar) # 0
 
 print(concatenar[buscar:]) # Leandro e Luciana
 
 # função replace() => substitui uma palavra da string
-print(concatenar.replace('Luciana', 'Mello'))
+print(concatenar.replace("Luciana", "Mello"))

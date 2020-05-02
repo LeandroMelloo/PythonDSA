@@ -3,7 +3,7 @@ b = 10
 print(b) # 10 int
 
 ############ operadores aritmeticos ###########
-'''
+"""
 soma = +
 subtração = -
 divisão = /
@@ -12,17 +12,17 @@ potencia = **
 modulo = %
 int() = converte para inteiro
 float() = converte para float
-'''
+"""
 
 ########### operadores relacionais #############
-'''
+"""
 igualdade => ==
 desigualdade => !=
 maior => >
 menor => <
 maior ou igual => >=
 menor ou igual => <=
-'''
+"""
 
 ########### operadores de atribuição ###########
 
@@ -60,26 +60,26 @@ z //= 2
 print(z) # equivale a z = z // 2 (4 // 2 = 2) int
 
 ########### operadores logicos ###########
-'''
+"""
 AND(E), se ambos operadores forem True, (x and y) é True
 OR(OU), se alguns dos operadores forem True, (x or y) é True
 NOT(NÃO), utilizado para reverter o estado da lógica, NOT (x and y) é False
-'''
+"""
 
 ########### declaração multipla ###############
-pessoa1, pessoa2, pessoa3 = 'José', 'João', 'Maria'
+pessoa1, pessoa2, pessoa3 = "José", "João", "Maria"
 print(pessoa1, pessoa2, pessoa3) # José João Maria
 
-fruta1 = fruta2 = fruta3 = 'laranja'
+fruta1 = fruta2 = fruta3 = "laranja"
 print(fruta1, fruta2, fruta3) # laranja, laranja, laranja
 
 ############# sintaxe error #####################
-'''
+"""
 1x = 10 (não pode)
 x 1 = 10 (não pode)
 x = 10 (pode)
 x_1 = 10 (pode)
-'''
+"""
 
 ############# Variaveis atribuidas a outras variáveis e ordem dos operadores #############
 largura = 2
@@ -106,14 +106,14 @@ print(idade1 % idade2) # modulo (resto da divisão) => 0
 print(idade3 ** idade4) # potencia => 4
 
 ############ concatenação de variaveis ###########
-esposa = 'Luciana'
-marido = 'Leandro'
+esposa = "Luciana"
+marido = "Leandro"
 
-casal = 'Casal' + ' ' + esposa + ' ' + 'e' + ' ' + marido + ' ' + 'firme e forte.'
+casal = "Casal" + " " + esposa + " " + "e" + " " + marido + " " + "firme e forte."
 print(casal) # Casal Luciana e Leandro firme e forte.
 
-nome = 'Luciana'
-sobrenome = 'Moreira'
+nome = "Luciana"
+sobrenome = "Moreira"
 
-nome_completo = nome + ' ' + sobrenome
+nome_completo = nome + " " + sobrenome
 print(nome_completo)
