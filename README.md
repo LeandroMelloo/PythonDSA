@@ -1,2 +1,2 @@
-# PythonDSA
+# python-dsa
 Fundamentos Python DSA 
